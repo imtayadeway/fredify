@@ -33,7 +33,7 @@ end
 
 # Lose the namespace:
 require "fredify"
-include "fred"
+include Fred
 
 yabba_dabba do
   [1, 2, 3].each { |n| puts n }
